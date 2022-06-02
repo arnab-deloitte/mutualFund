@@ -19,3 +19,19 @@ models:
         tests:
           - unique
           - not_null
+  - name: milestone1_1
+    description: "Monthly average NAV, Repurchase & Sale Price for each scheme"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+  - name: milestone1_2
+    description: "Each scheme’s Max and Min NAV value and Date it occurred"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
